@@ -1,0 +1,12 @@
+<h1> meeeuw_u {{total}} </h1>
+
+<a href = "{%url 'home'%}"다시하기></a>
+<br>
+<h2> </h2>
+{{full}}
+
+<h2> meeeuw_u </h2>
+{%for word, howmany in dictionary%}
+{{word}} : {{howmany}}
+<br>
+{%endfor%}
